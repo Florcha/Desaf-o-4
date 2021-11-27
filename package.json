@@ -1,0 +1,25 @@
+{
+  "name": "proyecto_carranza_diaz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/origen.scss css/destino.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Florcha/Proyecto-Final-Carranza-Diaz-Ma.-Florencia.git"
+  },
+  "author": "Florencia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Florcha/Proyecto-Final-Carranza-Diaz-Ma.-Florencia/issues"
+  },
+  "homepage": "https://github.com/Florcha/Proyecto-Final-Carranza-Diaz-Ma.-Florencia#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
